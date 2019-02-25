@@ -1,0 +1,141 @@
+#container {
+ width: auto; /* Ширина макета */
+ margin: 0 auto; /* Выравнивание по центру */
+}
+#nav {
+ width: 250px; /* Ширина левой колонки */
+ float: left;
+}
+#content {
+  width: 800px; /* Ширина правой колонки */
+  float: left;
+}
+
+#button {
+      display: inline-block;
+      font-family: arial,sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      color: rgb(68,68,68);
+      text-decoration: none;
+      user-select: none;
+      padding: .2em 1.2em;
+      outline: none;
+      border: 1px solid rgba(0,0,0,.1);
+      border-radius: 2px;
+      background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+      transition: all .218s ease 0s;
+}
+#button:hover {
+      color: rgb(24,24,24);
+      border: 1px solid rgb(198,198,198);
+      background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+      box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+#button:active {
+      color: rgb(51,51,51);
+      border: 1px solid rgb(204,204,204);
+      background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+      box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+
+#text1 {
+    border: 2px solid #cccccc;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background: #ffffff !important;
+    height: 30px;
+    width: 600px;
+    color: #000000;
+    font-size: 15px;
+    font-family: Tahoma;
+
+}
+#button_req {
+       margin-left:40px;
+        display: inline-block;
+          width: 6em;
+          height: 2em;
+          line-height: 2em;
+          vertical-align: middle;
+          text-align: center;
+          text-decoration: none;
+          user-select: none;
+          color: rgb(0,0,0);
+          outline: none;
+          border: 1px solid rgba(0,0,0,.4);
+          border-top-color: rgba(0,0,0,.3);
+          border-radius: 2px;
+          background: linear-gradient(rgb(255,255,255), rgb(240,240,240));
+          box-shadow:
+           0 0 3px rgba(0,0,0,0) inset,
+           0 1px 1px 1px rgba(255,255,255,.2),
+           0 -1px 1px 1px rgba(0,0,0,0);
+          transition: .2s ease-in-out;
+}
+#button_req:hover:not(:active) {
+  box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(0,255,255,.5),
+   0 -1px 1px 1px rgba(0,255,255,.5);
+}
+#button_req:active {
+  background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+  box-shadow:
+   0 0 3px rgba(0,0,0,.5) inset,
+   0 1px 1px 1px rgba(255,255,255,.4),
+   0 -1px 1px 1px rgba(0,0,0,.1);
+}
+ #footer {
+    position: fixed; /* Фиксированное положение */
+    bottom: 0; /* Левый нижний угол */
+    width: 100%; /* Ширина слоя */
+}
+#bar {
+    background: radial-gradient(circle , #b9b9b9, #dadada);
+    width: 100%;
+    height: 100px;
+    margin-bottom: 4px;
+}
+#but {
+    margin-right: 85px;
+
+}
+#logo {
+    float: left;
+    width: 85px;
+    height: 85px;
+}
+#general{
+    border: 5px double black;
+    background: #ffffff;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    outline: none !important;
+    margin: -5px;
+}
+#general:hover{
+    background: #f1eeee;
+}
+#general:active{
+    border: 6px double black;
+}
+#general_2{
+    color: radial-gradient(circle , #ffffff, #000000);
+    margin: 5px;
+}
+#buttrun{
+    background: #0b8fcac9;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    outline: none !important;
+    border: 2px outset rgba(59, 189, 202, 0.79);
+    color: #FFFFFF;
+}
+#buttrun:hover{
+    background: rgba(45, 170, 202, 0.79);
+}
+#buttrun:active{
+    border-style: inset;
+}
